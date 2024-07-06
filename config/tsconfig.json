@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "commonjs",
+    "esModuleInterop": true, // es6 모듈 시스템 사용
+    "forceConsistentCasingInFileNames": true, // 경로의 대소문자 구분
+    "strict": true, // 엄격한 타입 검사
+    "noImplicitAny": true, // any 타입 사용 금지
+    "strictNullChecks": true, // null, undefined 타입 사용 금지
+    "skipLibCheck": true, // 라이브러리 검사 생략
+    "outDir": "./dist" // src/app/index.ts -> dist/app/index.js
+  }
+}
